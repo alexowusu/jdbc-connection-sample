@@ -9,8 +9,13 @@ public class JDBCMain {
         Query cus = new Query();
         cus.getAllCustomers();
 
-        Query search = new Query();
+        //Showing Product Categories
+        Query prod = new Query();
+        prod.showProductCategory();
 
+
+        //Searching for customer
+        Query search = new Query();
         System.out.println("SEARCH FOR CUSTOMERS\nEnter Customer Name: ");
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
