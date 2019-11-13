@@ -20,6 +20,9 @@ public class JDBCMain {
             search.showSimilarCustomers(name);
         }
 
+//        ProductDAOI product = new ProductDAOI();
+//        product.getProductsByCustomer("John Steel");
+
     }
 
 }
