@@ -1,5 +1,6 @@
 package io.turntabl;
 
+import java.sql.Date;
 import java.sql.SQLException;
 
 public interface ProductDAO {
@@ -7,5 +8,5 @@ public interface ProductDAO {
 
     public void getFiveMostPopularProducts();
 
-    public void getProductSalesForAGivenWeek();
+    public void getProductSalesForAGivenWeek(Date date1, Date date2);
 }

@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d3f9c0-0adb-4632-93bd-04822f9f943d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jdbc-connection-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jdbc-connection-sample.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jdbc-connection-sample.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gradle-travis-sample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gradle-travis-sample.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gradle-travis-sample.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/turntabl/JDBCMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/turntabl/JDBCMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/turntabl/DBConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/DBConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/turntabl/JDBCMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/JDBCMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/turntabl/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/turntabl/ProductDAOI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/ProductDAOI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +42,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -49,6 +78,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
   </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="io.turntabl" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -64,7 +98,7 @@
   <component name="RunManager">
     <configuration name="JDBCMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.turntabl.JDBCMain" />
-      <module name="gradle-travis-sample.main" />
+      <module name="jdbc-connection-sample.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.turntabl.*" />

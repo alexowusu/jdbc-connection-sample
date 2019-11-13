@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="gradle-travis-sample.main" target="1.8" />
       <module name="gradle-travis-sample.test" target="1.8" />
+      <module name="jdbc-connection-sample.main" target="1.8" />
+      <module name="jdbc-connection-sample.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
