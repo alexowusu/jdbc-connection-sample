@@ -1,38 +1,31 @@
 plugins {
-    id 'java'
-    id 'application'
-    //id 'distribution'
+	//id 'org.springframework.context' version '2.2.1.RELEASE'
+	//id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'application'
+	id 'java'
 }
 
-group 'io.turntabl'
-version '1.0-SNAPSHOT'
-
-sourceCompatibility = 1.8
+group = 'io.turntabl'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+mainClassName = 'io.turntabl.JDBC'
 
 repositories {
-    mavenCentral()
+	mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.8'
+	compile 'org.springframework:spring-core:5.2.1.RELEASE'
+	compile 'org.springframework:spring-beans:5.2.1.RELEASE'
+	compile 'org.springframework:spring-context:5.2.1.RELEASE'
+	compile 'org.springframework:spring-jdbc:5.2.1.RELEASE'
+	runtime 'org.springframework:spring-context:5.2.1.RELEASE'
+	implementation 'org.springframework.boot:spring-boot-starter'
+	//testImplementation('org.springframework.boot:spring-boot-starter-test') {
+	//	exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	//}
 }
 
-application {
-    mainClassName = 'io.turntabl.JDBCMain'
+test {
+	useJUnitPlatform()
 }
-
-//this will build a start script in
-tasks.startScripts {
-    doLast {
-        def scriptFile = file "${outputDir}/${applicationName}"
-        scriptFile.text = scriptFile.text.replace('CLASSPATH=$APP_HOME/lib', 'CLASSPATH=$APP_HOME/libs')
-    }
-}
-
-//put your package-qualified main class name here
-application {
-    mainClassName = 'io.turntabl.JDBCMain'
-}
-
-
