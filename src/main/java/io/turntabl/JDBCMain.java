@@ -1,5 +1,10 @@
 package io.turntabl;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.SqlOutParameter;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,7 +12,16 @@ import java.util.Scanner;
 
 public class JDBCMain {
     public static void main(String[] args){
-        System.out.println(ConnectDB.dbConnect());
+        ApplicationContext ctx = new FileSystemXmlApplicationContext("bean.xml");
+        JdbcTemplate tmpl = (JDBCTemplate) ctx.getBean("jdbcTemplate");
+
+        int numRow = tmpl.queryForObject("select count(customer) from customers", Integer.class);
+        System.out.println(numRow);
+
+        String nme =(String)tmpl.queryForObject("select contact_name from customers where contact_name like =?",String.class);
+        System.out.println(nme);
+
+        //System.out.println(ConnectDB.dbConnect());
 
 //        Query cus = new Query();
 //        cus.getAllCustomers();
